@@ -14,7 +14,7 @@ body{
     background: white;
 }
 
-/* Nav bar */
+/*---------------------------- Nav bar -----------------------------*/
 header{
     position: fixed;
     width: 100%;
@@ -84,7 +84,7 @@ header{
     color: #146C94;
 }
 
-/* Icons in the navbar */
+/*------------------------------ Icons in the navbar -----------------------------*/
 #menu-icon{
     height: 30px;
     width: 30px;
@@ -100,12 +100,12 @@ header{
     display: none;
 }
 
-/* Home Page Body */
+/*---------------- Home Page Body ------------------------*/
 section{
     padding: 60px 14% 70px;
 }
 
-/* Home Page Hero Img */
+/*---------------- Home Page Hero Img --------------------*/
 .home{
     position: relative;
     width: 100%;
@@ -154,7 +154,7 @@ section{
 
 
 
-/* Slideshow container */
+/*---------------- Slideshow container -----------------------------*/
 .trending-header {
     display: flex;
     align-items: center;
@@ -164,12 +164,12 @@ section{
 
 .trending-header h2 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 
 .fa-fire-flame-curved {
-    font-size: 1.5rem;
+    font-size: 5rem;
     color: #f00; 
 }
 
@@ -180,7 +180,7 @@ section{
     margin: auto;
   }
   
-  /* Hide the images by default */
+  /*--------------- Hide the images by default -------------------*/
   .mySlides {
     display: none;
   }
@@ -189,7 +189,7 @@ section{
     display: block;
 }
   
-  /* Next & previous buttons */
+  /*---------------- Next & previous buttons ---------------------*/
   .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -205,18 +205,18 @@ section{
     user-select: none;
   }
   
-  /* Position the "next button" to the right */
+  /*------------- Position the "next button" to the right ---------*/
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, button background*/
+  /*------------- On hover, button background ---------------------*/
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
-  /* Caption text */
+  /*------------ Caption text --------------------------- */
   .text {
     color: black;
     font-size: 15px;
@@ -228,7 +228,7 @@ section{
   }
   
   
-  /* The dots */
+  /*---------------- The dots -------------------*/
   .dot {
     cursor: pointer;
     height: 15px;
@@ -244,7 +244,7 @@ section{
     background-color: #717171;
   }
   
-  /* Fading animation */
+  /*---------- Fading animation ----------------*/
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -258,7 +258,7 @@ section{
 
 
 
-/* Contact Form */
+/*---------- Contact Form -------------------*/
 .contact {
    padding-top: 300px;
 }
@@ -315,7 +315,7 @@ label {
 
 
 
-/* Footer */
+/*---------------- Footer ------------------*/
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -403,7 +403,7 @@ label {
 
 
 
- /* Responsive Design */
+ /*----------- Responsive Design ---------------*/
 
  @media (max-width: 920px){
     #menu-icon{

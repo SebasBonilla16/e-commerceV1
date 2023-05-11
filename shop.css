@@ -15,7 +15,7 @@ body{
 
 
 
-/* Nav bar */
+/* --------------------------------- Nav bar -------------------------------------------- */
 header{
     width: 100%;
     top: 0;
@@ -84,7 +84,7 @@ header{
     color: #146C94;
 }
 
-/* Icons in the navbar */
+/* ------------------------------- Icons in the navbar ----------------------------*/
 #menu-icon{
     height: 30px;
     width: 30px;
@@ -101,7 +101,7 @@ header{
 }
 
 
-/* Shop Page */
+/*------------------------------------ Shop Page -----------------------*/
 h2 {
     text-align: center;
     margin-top: 50px;
@@ -113,7 +113,7 @@ h2 {
     grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     grid-gap: 50px;
     margin: 50px auto;
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
     box-sizing: border-box;
     text-align: center;
@@ -176,7 +176,7 @@ h2 {
 
 
 
-/* Footer  */
+/*-------------------------------- Footer -------------------------- */
 .footer{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -278,6 +278,54 @@ h2 {
         margin: 0 auto;
     }
 }
+
+@media (max-width: 920px){
+    .logo{
+        width: 30px;
+        padding-left: -20;
+    }
+    .logo span{
+        display: hidden;
+    }
+    #menu-icon{
+        display: block;
+        height: 25px;
+        width: 25px;
+        background: #146C94;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+    .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        display: none;
+        flex-direction: column;
+        text-align: left;
+        background: #146C94;
+        transition: all .50s ease;
+    }
+    .navbar.active{
+        display: flex;
+    }
+    .navbar a{
+        display: block;
+        padding: 2px;
+        font-size: 20px;
+        font-weight: 600;
+        transition: all .50s ease;
+    }
+    .navbar a:hover{
+        color: white;
+    }
+ }
+
 
 /* Tablets and smaller screens */
 @media (min-width: 769px) and (max-width: 1024px) {
