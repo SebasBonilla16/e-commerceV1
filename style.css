@@ -402,7 +402,7 @@ label {
  }
 
 
- @media (max-width: 768px) {
+ /* @media (max-width: 768px) {
     .slideshow-container {
       display: flex;
       flex-direction: column;
@@ -419,7 +419,7 @@ label {
         width: 100%;
         height: 300px;
     }
-}
+} */
 
 @media (max-width: 1200px){
     header{
@@ -435,8 +435,8 @@ label {
         display: block;
         height: 30px;
         width: 30px;
-        background: var(--text-color);
-        color: var(--bg-color);
+        background: #146C94;
+        color: white;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -446,15 +446,17 @@ label {
     }
     .navbar{
         position: absolute;
-        top: -800px;
+        top: 100%;
         left: 0;
         right: 0;
-        display: flex;
+        display: none;
         flex-direction: column;
         text-align: left;
-        background: var(--main-color);
+        background: #146C94;
         transition: all .50s ease;
-
+    }
+    .navbar.active{
+        display: flex;
     }
     .navbar a{
         display: block;
@@ -465,30 +467,27 @@ label {
         transition: all .50s ease;
     }
     .navbar a:hover{
-        color: var(--bg-color);
-    }
-    .navbar.active{
-        top: 100%;
+        color: white;
     }
  }
 
- @media (max-width: 640px){
-    :root{
-        --big-font: 3.8rem;
-        --h2-font: 2rem;
-        --p-font: 1.1rem;
-    }
+  @media (max-width: 540px){
     .home-text h1{
-        line-height: 1.1;
+        font-size: 4rem;
+        margin-bottom: 20px;
+    }
+    .home-text p{
+            margin-bottom: 30px;
     }
     .home{
         height: 85vh;
     }
+  }
  
 
 
 
-/* Mobile devices */
+/* Mobile devices 
 @media (max-width: 768px) {
     .products {
         grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
@@ -499,18 +498,9 @@ label {
     }
 }
 
-/* Tablets and smaller screens */
+ Tablets and smaller screens 
 @media (min-width: 769px) and (max-width: 1024px) {
     .products {
         grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     }
-}
-
-
-
-
-
-
-
-
- }
+} */
