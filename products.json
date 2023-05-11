@@ -1,0 +1,85 @@
+[
+    {
+        "image": "imgs/jarritos dunks.webp",
+        "title": "Jarritos Dunks x Nike SB",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$130"
+    },
+
+    {
+        "image": "imgs/off white unc.webp",
+        "title": "Off-White UNC x Air Jordan 1 Retro",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$1000"
+    },
+
+    {
+        "image": "imgs/Lightning McQueen Crocs.webp",
+        "title": "Lightning McQueen Crocs",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$999,999"
+    },
+
+    {
+        "image": "imgs/MSCHF Big Red Boots.webp",
+        "title": "MSCHF Big Red Boots",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$500"
+    },
+
+    {
+        "image": "imgs/Minion Crocs.webp",
+        "title": "Minion Crocs",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$999,998"
+    },
+
+    {
+        "image": "imgs/yeezy zebra.webp",
+        "title": " Yeezy Boost 350v Zebra",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$200"
+    },
+
+    {
+        "image": "imgs/Panda dunks.webp",
+        "title": "Panda Dunks",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$100"
+    },
+
+    {
+        "image": "imgs/new balance 574 retro surf.webp",
+        "title": "New Balance 574 Retro Surf",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$80"
+    },
+
+    {
+        "image": "imgs/Sean Wotherspoon.webp",
+        "title": "Sean Wotherspoon x Air Max 1/97",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$350"
+    },
+
+    {
+        "image": "imgs/kobe grinch.webp",
+        "title": "Nike Kobe 6 Protro Grinch",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$200"
+    },
+
+    {
+        "image": "imgs/Timberland Boots.webp",
+        "title": "Timberland 6' Premium Waterproof Boot Wheat",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "$50"
+    },
+
+    {
+        "image": "imgs/Jerusalem 11s.webp",
+        "title": "ULTRA RARE Jerusalem 11s",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "Priceless"
+    }
+]
